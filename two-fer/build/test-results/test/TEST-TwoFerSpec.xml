@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TwoFerSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-14T22:42:02" hostname="Hectors-MacBook-Air.local" time="0.108">
+  <properties/>
+  <testcase name="No name given" classname="TwoFerSpec" time="0.108"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

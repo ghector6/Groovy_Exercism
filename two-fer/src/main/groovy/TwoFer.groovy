@@ -1,6 +1,6 @@
 class TwoFer {
 
     static String twoFer(String name) {
-        throw new UnsupportedOperationException('Method is not implemented')
+      def result = (name != null) ? "One for ${name}, one for me." : "One for you, one for me."
     }
 }
