@@ -1,7 +1,7 @@
 class Hamming {
 
     def distance(strand1, strand2) {
-      if (strand1.isEmpty()){
+      if (strand1.isEmpty() || strand1 == strand2){
         return 0
       } else{
           def list1 = strand1.split("").toList()
