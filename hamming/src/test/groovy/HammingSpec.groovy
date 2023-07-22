@@ -32,7 +32,6 @@ class HammingSpec extends Specification {
         'G'     | 'T'     || 1
     }
 
-    @Ignore
     def "Long identical strands"() {
         expect:
         hamming.distance(strand1, strand2) == expected
@@ -42,7 +41,6 @@ class HammingSpec extends Specification {
         'GGACTGAAATCTG' | 'GGACTGAAATCTG' || 0
     }
 
-    @Ignore
     def "Long different strands"() {
         expect:
         hamming.distance(strand1, strand2) == expected
