@@ -38,8 +38,6 @@ class ScrabbleScoreSpec extends Specification {
         ''   || 0
     }
 
-    @Unroll
-    @Ignore
     def "Score for word #word should be #expected"() {
         expect:
         ScrabbleScore.scoreWord(word) == expected
