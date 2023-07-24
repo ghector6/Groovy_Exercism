@@ -42,7 +42,6 @@ class GigasecondSpec extends Specification {
         expected = LocalDateTime.of(2046, Month.OCTOBER, 2, 23, 46, 40)
     }
 
-    @Ignore
     def "Full time with day roll-over"() {
         expect:
         Gigasecond.add(moment) == expected

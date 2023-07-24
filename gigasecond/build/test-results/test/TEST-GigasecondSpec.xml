@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GigasecondSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-07-24T03:16:58" hostname="Hectors-MacBook-Air.local" time="0.013">
+  <properties/>
+  <testcase name="Date only specification of time" classname="GigasecondSpec" time="0.01"/>
+  <testcase name="Second test for date only specification of time" classname="GigasecondSpec" time="0.0"/>
+  <testcase name="Third test for date only specification of time" classname="GigasecondSpec" time="0.0"/>
+  <testcase name="Full time specified" classname="GigasecondSpec" time="0.0"/>
+  <testcase name="Full time with day roll-over" classname="GigasecondSpec" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
