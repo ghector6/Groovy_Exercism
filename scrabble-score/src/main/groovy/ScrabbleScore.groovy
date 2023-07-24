@@ -17,7 +17,6 @@ class ScrabbleScore {
         total += letterValues[upperCased] ?: 0
       }
       return total
-        //throw new UnsupportedOperationException('scoreWord method not implemented.')
     }
 
 }
