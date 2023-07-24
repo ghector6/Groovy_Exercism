@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ScrabbleScoreSpec" tests="5" skipped="4" failures="0" errors="0" timestamp="2023-07-24T06:38:21" hostname="Hectors-MacBook-Air.local" time="0.057">
+  <properties/>
+  <testcase name="Lowercase letter" classname="ScrabbleScoreSpec" time="0.055"/>
+  <testcase name="Valuable letter" classname="ScrabbleScoreSpec" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="Empty input" classname="ScrabbleScoreSpec" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="Uppercase letter" classname="ScrabbleScoreSpec" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="Score for word #word should be #expected" classname="ScrabbleScoreSpec" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
