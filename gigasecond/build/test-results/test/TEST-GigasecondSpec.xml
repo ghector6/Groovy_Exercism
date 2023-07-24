@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GigasecondSpec" tests="5" skipped="3" failures="0" errors="0" timestamp="2023-07-24T02:54:11" hostname="Hectors-MacBook-Air.local" time="0.013">
+<testsuite name="GigasecondSpec" tests="5" skipped="2" failures="0" errors="0" timestamp="2023-07-24T02:54:53" hostname="Hectors-MacBook-Air.local" time="0.012">
   <properties/>
-  <testcase name="Date only specification of time" classname="GigasecondSpec" time="0.01"/>
-  <testcase name="Second test for date only specification of time" classname="GigasecondSpec" time="0.001"/>
-  <testcase name="Third test for date only specification of time" classname="GigasecondSpec" time="0.0">
-    <skipped/>
-  </testcase>
+  <testcase name="Date only specification of time" classname="GigasecondSpec" time="0.009"/>
+  <testcase name="Second test for date only specification of time" classname="GigasecondSpec" time="0.0"/>
+  <testcase name="Third test for date only specification of time" classname="GigasecondSpec" time="0.0"/>
   <testcase name="Full time with day roll-over" classname="GigasecondSpec" time="0.0">
     <skipped/>
   </testcase>
