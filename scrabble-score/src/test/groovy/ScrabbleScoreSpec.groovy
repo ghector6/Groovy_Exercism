@@ -29,7 +29,6 @@ class ScrabbleScoreSpec extends Specification {
         'f'  || 4
     }
 
-    @Ignore
     def "Empty input"() {
         expect:
         ScrabbleScore.scoreWord(word) == expected
