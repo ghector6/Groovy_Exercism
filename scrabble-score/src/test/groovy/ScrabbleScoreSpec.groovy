@@ -20,7 +20,6 @@ class ScrabbleScoreSpec extends Specification {
         'A'  || 1
     }
 
-    @Ignore
     def "Valuable letter"() {
         expect:
         ScrabbleScore.scoreWord(word) == expected
