@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DifferenceOfSquaresSpec" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-07-25T02:47:41" hostname="Hectors-MacBook-Air.local" time="0.108">
+<testsuite name="DifferenceOfSquaresSpec" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-07-25T02:49:35" hostname="Hectors-MacBook-Air.local" time="0.162">
   <properties/>
-  <testcase name="Can square the sum of the numbers up to 1" classname="DifferenceOfSquaresSpec" time="0.094"/>
+  <testcase name="Can square the sum of the numbers up to 1" classname="DifferenceOfSquaresSpec" time="0.142"/>
   <testcase name="Can square the sum of the numbers up to 5" classname="DifferenceOfSquaresSpec" time="0.0"/>
-  <testcase name="Can square the sum of the numbers up to 100" classname="DifferenceOfSquaresSpec" time="0.002"/>
-  <testcase name="Can sum the squares up to 1" classname="DifferenceOfSquaresSpec" time="0.001"/>
+  <testcase name="Can square the sum of the numbers up to 100" classname="DifferenceOfSquaresSpec" time="0.001"/>
+  <testcase name="Can sum the squares up to 1" classname="DifferenceOfSquaresSpec" time="0.002"/>
   <testcase name="Can sum the squares up to 5" classname="DifferenceOfSquaresSpec" time="0.0"/>
-  <testcase name="Can sum the squares up to 100" classname="DifferenceOfSquaresSpec" time="0.001"/>
-  <testcase name="Can subtract sum of squares from square of sum of 1" classname="DifferenceOfSquaresSpec" time="0.002"/>
+  <testcase name="Can sum the squares up to 100" classname="DifferenceOfSquaresSpec" time="0.002"/>
+  <testcase name="Can subtract sum of squares from square of sum of 1" classname="DifferenceOfSquaresSpec" time="0.003"/>
   <testcase name="Can subtract sum of squares from square of sum of 5" classname="DifferenceOfSquaresSpec" time="0.001"/>
-  <testcase name="Can subtract sum of squares from square of sum of 100" classname="DifferenceOfSquaresSpec" time="0.001"/>
+  <testcase name="Can subtract sum of squares from square of sum of 100" classname="DifferenceOfSquaresSpec" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
