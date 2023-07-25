@@ -28,7 +28,8 @@ class DifferenceOfSquares {
     }
 
     def difference() {
-        throw new UnsupportedOperationException('Method implementation is missing')
+      squareOfSum() - sumOfSquares()
+        //throw new UnsupportedOperationException('Method implementation is missing')
     }
 
 }
