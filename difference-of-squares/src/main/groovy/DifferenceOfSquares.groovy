@@ -1,7 +1,9 @@
 class DifferenceOfSquares {
+  private int num
 
     DifferenceOfSquares(num) {
-        throw new UnsupportedOperationException('Constructor implementation is missing')
+      this.num = num
+        //throw new UnsupportedOperationException('Constructor implementation is missing')
     }
 
     def squareOfSum() {
