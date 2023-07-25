@@ -7,11 +7,24 @@ class DifferenceOfSquares {
     }
 
     def squareOfSum() {
-        throw new UnsupportedOperationException('Method implementation is missing')
+      def range = 1..num
+      def total = 0
+      range.each {n ->
+        total += n
+      }
+      return total**2
+        //throw new UnsupportedOperationException('Method implementation is missing')
     }
 
     def sumOfSquares() {
-        throw new UnsupportedOperationException('Method implementation is missing')
+      def range = 1..num
+      def total = 0
+      range.each {n ->
+        def squared = n**2
+        total += squared
+      }
+      return total
+        //throw new UnsupportedOperationException('Method implementation is missing')
     }
 
     def difference() {
