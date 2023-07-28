@@ -4,8 +4,10 @@ class SecretHandshake {
       def binaryString = Integer.toBinaryString(number).reverse()
       if (binaryString[0] == "1"){
         return ["wink"]
-      }else if (binaryString[1]){
+      }else if (binaryString[1] == "1"){
         return ["double blink"]
+      }else if (binaryString[2] == "1"){
+        return ["close your eyes"]
       }
 
     }
