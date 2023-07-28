@@ -29,7 +29,6 @@ class SecretHandshakeSpec extends Specification {
         4      || ['close your eyes']
     }
 
-    @Ignore
     def "Jump for 1000"() {
         expect:
         SecretHandshake.commands(number) == expected

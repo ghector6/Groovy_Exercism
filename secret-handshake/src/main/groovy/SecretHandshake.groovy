@@ -8,7 +8,8 @@ class SecretHandshake {
         return ["double blink"]
       }else if (binaryString[2] == "1"){
         return ["close your eyes"]
+      }else if (binaryString[3] == "1"){
+        return ["jump"]
       }
-
     }
 }
