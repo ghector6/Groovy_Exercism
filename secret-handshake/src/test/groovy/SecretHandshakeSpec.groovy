@@ -11,7 +11,6 @@ class SecretHandshakeSpec extends Specification {
         1      || ['wink']
     }
 
-    @Ignore
     def "Double blink for 10"() {
         expect:
         SecretHandshake.commands(number) == expected
