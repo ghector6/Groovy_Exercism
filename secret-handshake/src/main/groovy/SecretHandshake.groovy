@@ -1,15 +1,18 @@
 class SecretHandshake {
 
-    static List<String> commands(int number) {
-      def binaryString = Integer.toBinaryString(number).reverse()
-      if (binaryString[0] == "1"){
-        return ["wink"]
-      }else if (binaryString[1] == "1"){
-        return ["double blink"]
-      }else if (binaryString[2] == "1"){
-        return ["close your eyes"]
-      }else if (binaryString[3] == "1"){
-        return ["jump"]
+  static List<String> commands(int number) {
+    def binaryString = Integer.toBinaryString(number).reverse()
+    def list = []
+
+    binaryString.eachWithIndex {val, i ->
+      if (val == "1"){
+        if (i == 0){list << "wink"}
+        if (i == 1){list << "double blink"}
+        if (i == 2){list <<"close your eyes"}
+        if (i == 3){list << "jump"}
       }
     }
+    return list
+
+  }
 }

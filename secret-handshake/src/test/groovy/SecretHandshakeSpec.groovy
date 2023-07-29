@@ -38,7 +38,6 @@ class SecretHandshakeSpec extends Specification {
         8      || ["jump"]
     }
 
-    @Ignore
     def "Combine two actions"() {
         expect:
         SecretHandshake.commands(number) == expected
