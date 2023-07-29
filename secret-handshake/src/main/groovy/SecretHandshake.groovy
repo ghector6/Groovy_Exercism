@@ -10,6 +10,7 @@ class SecretHandshake {
         if (i == 1){list << "double blink"}
         if (i == 2){list <<"close your eyes"}
         if (i == 3){list << "jump"}
+        if (i == 4){list.reverse()}
       }
     }
     return list
