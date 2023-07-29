@@ -47,7 +47,6 @@ class SecretHandshakeSpec extends Specification {
         3      || ['wink', 'double blink']
     }
 
-    @Ignore
     def "Reverse two actions"() {
         expect:
         SecretHandshake.commands(number) == expected
