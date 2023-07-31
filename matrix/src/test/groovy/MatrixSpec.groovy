@@ -29,7 +29,6 @@ class MatrixSpec extends Specification {
         '1 2\n10 20' | 1     || [10, 20]
     }
 
-    @Ignore
     def "Can extract row from non-square matrix with no corresponding column"() {
         expect:
         new Matrix(string).row(index) == expected
