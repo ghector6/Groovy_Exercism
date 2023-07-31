@@ -11,7 +11,6 @@ class MatrixSpec extends Specification {
         '1'    | 0     || [1]
     }
 
-    @Ignore
     def "Can extract row"() {
         expect:
         new Matrix(string).row(index) == expected

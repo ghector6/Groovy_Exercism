@@ -7,7 +7,7 @@ class Matrix {
     }
 
     int[] row(int rowNumber) {
-      str.collect {it as int}
+      str.split("\n")[rowNumber].split(" ").collect {it as int}
        // throw new UnsupportedOperationException('Method implementation is missing')
     }
 
