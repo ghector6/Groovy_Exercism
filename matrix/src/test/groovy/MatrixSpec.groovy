@@ -20,7 +20,6 @@ class MatrixSpec extends Specification {
         '1 2\n3 4' | 1     || [3, 4]
     }
 
-    @Ignore
     def "Extract row where numbers have different widths"() {
         expect:
         new Matrix(string).row(index) == expected

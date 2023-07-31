@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MatrixSpec" tests="8" skipped="6" failures="0" errors="0" timestamp="2023-07-31T04:18:57" hostname="Hectors-MacBook-Air.local" time="0.044">
+<testsuite name="MatrixSpec" tests="8" skipped="5" failures="0" errors="0" timestamp="2023-07-31T04:22:30" hostname="Hectors-MacBook-Air.local" time="0.071">
   <properties/>
-  <testcase name="Extract row from one number matrix" classname="MatrixSpec" time="0.042"/>
+  <testcase name="Extract row from one number matrix" classname="MatrixSpec" time="0.067"/>
   <testcase name="Can extract row" classname="MatrixSpec" time="0.001"/>
-  <testcase name="Extract row where numbers have different widths" classname="MatrixSpec" time="0.0">
+  <testcase name="Extract row where numbers have different widths" classname="MatrixSpec" time="0.0"/>
+  <testcase name="Can extract row from non-square matrix with no corresponding column" classname="MatrixSpec" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="Extract column where numbers have different widths" classname="MatrixSpec" time="0.0">
+  <testcase name="Extract column from one number matrix" classname="MatrixSpec" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="Can extract column" classname="MatrixSpec" time="0.0">
@@ -15,10 +16,7 @@
   <testcase name="Can extract column from non-square matrix with no corresponding row" classname="MatrixSpec" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="Can extract row from non-square matrix with no corresponding column" classname="MatrixSpec" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="Extract column from one number matrix" classname="MatrixSpec" time="0.0">
+  <testcase name="Extract column where numbers have different widths" classname="MatrixSpec" time="0.0">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>
