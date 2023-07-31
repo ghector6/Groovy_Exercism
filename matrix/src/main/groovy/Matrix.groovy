@@ -1,11 +1,13 @@
 class Matrix {
 
-    Matrix(String asString = 1) {
+  String str = ""
+    Matrix(String asString) {
+      this.str = asString
         //throw new UnsupportedOperationException('Method implementation is missing')
     }
 
     int[] row(int rowNumber) {
-      [1]
+      str.collect {it as int}
        // throw new UnsupportedOperationException('Method implementation is missing')
     }
 
