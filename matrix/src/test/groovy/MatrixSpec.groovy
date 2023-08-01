@@ -47,7 +47,6 @@ class MatrixSpec extends Specification {
         '1'    | 0     || [1]
     }
 
-    @Ignore
     def "Can extract column"() {
         expect:
         new Matrix(string).column(index) == expected
