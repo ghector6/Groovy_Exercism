@@ -38,7 +38,6 @@ class MatrixSpec extends Specification {
         '1 2 3\n4 5 6\n7 8 9\n8 7 6' | 3     || [8, 7, 6]
     }
 
-    @Ignore
     def "Extract column from one number matrix"() {
         expect:
         new Matrix(string).row(index) == expected

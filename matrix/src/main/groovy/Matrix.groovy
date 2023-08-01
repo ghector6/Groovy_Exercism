@@ -12,6 +12,8 @@ class Matrix {
     }
 
     int[] column(int columnNumber) {
-        throw new UnsupportedOperationException('Method implementation is missing')
+      str.split("\n").collect {it.trim().split(" ")}.collect {it[columnNumber] as int}
+
+        //throw new UnsupportedOperationException('Method implementation is missing')
     }
 }
