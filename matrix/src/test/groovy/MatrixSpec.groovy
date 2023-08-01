@@ -56,7 +56,6 @@ class MatrixSpec extends Specification {
         '1 2 3\n4 5 6\n7 8 9' | 2     || [3, 6, 9]
     }
 
-    @Ignore
     def "Can extract column from non-square matrix with no corresponding row"() {
         expect:
         new Matrix(string).column(index) == expected
@@ -66,7 +65,6 @@ class MatrixSpec extends Specification {
         '1 2 3 4\n5 6 7 8\n9 8 7 6' | 3     || [4, 8, 6]
     }
 
-    @Ignore
     def "Extract column where numbers have different widths"() {
         expect:
         new Matrix(string).column(index) == expected
